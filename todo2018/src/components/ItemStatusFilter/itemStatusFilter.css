@@ -1,0 +1,7 @@
+.search-panel-btn {
+  display: flex;
+}
+
+.search-panel-btn button {
+  margin-left: 5px;
+}

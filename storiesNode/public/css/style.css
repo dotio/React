@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.user {
+  color: #ef9a9a;
+  text-transform: capitalize;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.circle-small {
+  width: 30px;
+  height: 30px;
+}
+
+.title {
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+
+.main-card {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.dash-status {
+  text-transform: capitalize;
+}
+#delete-form {
+  display: inline;
+}
+
+@media (max-width: 500px) {
+  #delete-form button {
+    margin-top: 10px;
+  }
+}

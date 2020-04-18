@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header h2 {
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.header-span-blue {
+  color: steelblue;
+  font-weight: bold;
+  margin: 0 5px;
+}

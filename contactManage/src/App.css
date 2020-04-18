@@ -1,0 +1,18 @@
+.fas {
+  cursor: pointer;
+}
+
+.card h4 {
+  cursor: pointer;
+}
+
+.fa-times {
+  float: right;
+  color: tomato;
+}
+
+.fa-pencil-alt {
+  cursor: pointer;
+  float: right;
+  margin-right: 1rem;
+}

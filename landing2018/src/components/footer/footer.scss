@@ -1,0 +1,21 @@
+@import "../../static/vars.scss";
+
+footer {
+  padding: 150px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer_logo {
+  font-size: 50px;
+  color: #fff;
+  font-family: $secondFont;
+}
+
+.footer_copy {
+  font-size: 14px;
+  color: #fff;
+}

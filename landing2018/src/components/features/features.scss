@@ -1,0 +1,74 @@
+@import "../../static/vars.scss";
+.features {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+// artist ///////////////////////////////////////
+.artist_name {
+  position: absolute;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-family: $secondFont;
+  font-size: 30px;
+}
+
+.artist_name-wrapper {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+// carousel //////////////////////////////////////
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-image {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+}
+
+.carousel-image-wrapper {
+  width: 100%;
+}
+
+// count ////////////////////////////////////////
+.countDown_wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
+
+.countDown_top {
+  text-transform: uppercase;
+  padding: 10px;
+  background: #000;
+}
+
+.countDown_bottom {
+  display: flex;
+}
+
+.countDown_item {
+  @extend .countDown_top;
+  background: rgb(27, 26, 26);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: $secondFont;
+  &:not(:last-child) {
+    border-right: 1px solid #fff;
+  }
+}

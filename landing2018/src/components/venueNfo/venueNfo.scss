@@ -1,0 +1,83 @@
+@import "../../static/media.scss";
+
+.bck_black {
+  background: rgb(15, 15, 15);
+  color: #fff;
+  display: flex;
+  padding: 150px 0px;
+  width: 100%;
+}
+
+.center_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.vn_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  @include phones() {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.vn_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.vn_outer {
+  border: 1px solid #fff;
+  padding: 3px;
+  position: relative;
+  @include phones() {
+    margin-bottom: 50px;
+  }
+}
+
+.vn_inner {
+  border: 1px solid #fff;
+  position: relative;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+.vn_icon_square {
+  width: 50px;
+  height: 50px;
+
+  position: absolute;
+  top: -27px;
+  transform: rotate(-45deg);
+}
+
+.bck_orange {
+  background: DarkOrange;
+}
+.bck_red {
+  background: tomato;
+}
+
+.vn_icon {
+  transform: rotate(45deg);
+  position: relative;
+  top: 20px;
+  left: 7px;
+}
+
+.vn_title {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.vn_desc {
+  text-align: center;
+}

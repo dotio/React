@@ -1,0 +1,96 @@
+@import "../../static/vars.scss";
+@import "../../static/media.scss";
+
+.hightlight_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 0;
+  background-color: #fff;
+  width: 100%;
+  @include phones() {
+    padding: 150px 20px;
+    width: auto;
+  }
+}
+
+.center_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+}
+
+.hightlights_descr {
+  font-size: 14px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 20px 0;
+  max-width: 700px;
+  width: 100%;
+  @include phones() {
+    max-width: 100%;
+    text-align: justify;
+    width: 100%;
+  }
+}
+
+.discount_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 700px;
+  @include phones() {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.discount {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  @include phones() {
+    width: 100%;
+
+    flex: 1;
+  }
+}
+
+.discount_descr {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 0;
+  @include phones() {
+    width: 100%;
+    text-align: justify;
+    flex: 1;
+    padding: 0 20px;
+  }
+}
+
+.big {
+  color: #fc3f05;
+  font-size: 100px;
+  font-family: $secondFont;
+  @include phones() {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+.gray {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: $secondFont;
+  @include phones() {
+    font-size: 20px;
+    text-align: center;
+  }
+}

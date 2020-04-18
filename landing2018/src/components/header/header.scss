@@ -1,0 +1,22 @@
+@import "../../static/vars";
+@import "../../static/media.scss";
+header {
+  box-shadow: none !important;
+  padding: 10px 0;
+}
+
+.toolbar {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo-venue {
+  font-family: $secondFont;
+  font-size: 30px;
+}
+.header_logo-title {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 12px;
+}

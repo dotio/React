@@ -1,0 +1,30 @@
+@import "./vars.scss";
+@import "../components/features/features.scss";
+@import "../components/header/header.scss";
+@import "../components/venueNfo/venueNfo.scss";
+@import "../components/prising/pricing.scss";
+@import "../components/location/location.scss";
+@import "../components/footer/footer.scss";
+@import "./reset";
+@import "./media";
+
+html {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+body {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+
+  background-color: rgb(96, 96, 129);
+  font-family: $mainFont;
+}
+
+.App {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}

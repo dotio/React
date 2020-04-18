@@ -1,0 +1,50 @@
+# Numerous always-ignore extensions
+*.lock
+*.bak
+*.diff
+*.err
+*.exe
+*.log
+*.orig
+*.rej
+*.sass-cache
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+*.sublime-grunt.cache
+*.sublime-project
+*.sublime-workspace
+._*
+.cache
+.DS_Store
+.project
+.settings
+.tmproj
+Thumbs.db
+.gulp
+
+# Folders to ignore
+.CVS
+.git
+.hg
+.idea
+.svn
+.vscode
+bower_components
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+/client/build
+default.json
+
+
+# Node.JS
+node_modules
+npm-debug.log
+package-lock.json
+
+**/send.php

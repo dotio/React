@@ -1,0 +1,69 @@
+@import "../../static/vars.scss";
+@import "../../static/media.scss";
+.pricing_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  border: 1px solid rgb(240, 168, 13);
+  width: 200px;
+  height: 100%;
+  @include phones() {
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+  }
+}
+
+.pricing_wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  @include phones() {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding: 0 20px;
+  }
+}
+
+.pricing_inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.pricing_title {
+  font-size: 14px;
+  border-bottom: 1px solid rgb(240, 168, 13);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10px;
+  .price-span {
+    font-family: $secondFont;
+    font-size: 40px;
+  }
+  .positin-span {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+}
+
+.pricing_descr {
+  padding-top: 10px;
+  font-size: 13px;
+  font-weight: 200;
+  color: #585858;
+  text-align: justify;
+}
+
+.pricing_btn {
+  padding: 20px 0;
+}
